@@ -128,7 +128,14 @@ blockquote {
     width: 70%;
     color: blanchedalmond;
     border-radius: 10px;
+    padding: 5px;
 }
+.hero img
+{
+    width: 100%;
+
+}
+
 .wrapper p , .wrapper h3{
     margin: 3px;
 }
