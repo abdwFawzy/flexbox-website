@@ -53,8 +53,8 @@ li a{
     font-size: 18px;    
     color: #e5e7eb;
 }
-.header button{
-    background: #3145ff;
+ button{
+    background: #3882f6;
     color: #ffffff;
     text-align: center;
     font-weight: bolder;
@@ -64,7 +64,7 @@ li a{
     border-radius: 20px;
     text-decoration: none;
     padding: 10px;
-    border: blue;
+    border: 1px solid #3c8dff;
     width: 100px;
 }
 .blocktwo{
@@ -83,7 +83,7 @@ li a{
 .blocktwo .images img{
     width: 200px;
     height: 200px;
-    margin: 34px;
+    margin: 16px;
 }
 .blocktwo .images div {
     margin: 34px;
@@ -93,4 +93,51 @@ li a{
 }
 h2{
     font: 3em sans-serif;;
+}
+.quote{
+    background-color: #e5e7eb;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 200px;
+}
+blockquote {
+    
+    background: url(/examples/images/openquote.gif) top left no-repeat;
+    color: rgb(0, 0, 0);
+    font-size: 36px;
+    line-height: 0.9;
+    font-style: italic;
+    padding: 13px;
+    background-color: e5e7eb;
+}
+.callToAction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #3882f6;
+    width: 70%;
+    color: blanchedalmond;
+    border-radius: 10px;
+}
+.wrapper p , .wrapper h3{
+    margin: 3px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 1em sans-serif;
+    color: blanchedalmond;
+    background-color: #1f2937;
+    border-radius: 5px;
 }
