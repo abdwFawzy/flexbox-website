@@ -1,2 +1,2 @@
-# flexbox-website
-(See live)[https://abdwfawzy.github.io/flexbox-website/]
+# landing page 
+[See live](https://abdwfawzy.github.io/flexbox-website/)
