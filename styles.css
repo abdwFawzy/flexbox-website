@@ -1,21 +1,25 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif
+
 }
 header{
     background-color: #1f2937;
     display: flex;
+     flex-wrap: wrap;
     justify-content: center;
     align-self: center;
 }
 .header
 {
     display: flex;
+     flex-wrap: wrap;
     justify-content: flex-start;
     align-self: center;
     flex-direction: row-reverse;
 }
  ul {
     display: flex;
+     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
@@ -24,6 +28,7 @@ header{
     font-size: 28px;
     color: #f9faf8;
     margin-left: -30px;
+    font-family: 
 }
  ul li{
     margin: 0px 0px 0px 10px;
@@ -34,15 +39,14 @@ li a{
 }
 
 .container{
-    display: flex;
+    display: flex; 
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     margin: 10px;
-    
-}
-.header img{
-}
+}   
+
 .header h1{
     font-size: 48px;
     font-weight: bolder;
@@ -69,6 +73,7 @@ li a{
 }
 .blocktwo{
     display: flex;
+     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -77,6 +82,7 @@ li a{
 }
 .blocktwo .images{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
@@ -87,16 +93,15 @@ li a{
 }
 .blocktwo .images div {
     margin: 34px;
-    font-size: larger;
-    font-weight: bolder;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13xp;
 }
 h2{
     font: 3em sans-serif;;
 }
 .quote{
     background-color: #e5e7eb;
-display: flex;
+display: flex; 
+flex-wrap: wrap;
 justify-content: center;
 align-items: center;
 height: 200px;
@@ -113,12 +118,14 @@ blockquote {
 }
 .callToAction{
     display: flex;
+     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     height: 200px;
 }
 .wrapper{
-    display: flex;
+    display: flex; 
+    flex-wrap: wrap;
     align-items: center;
     flex-wrap: nowrap;
     align-content: center;
@@ -126,10 +133,11 @@ blockquote {
     flex-direction: row;
     background-color: #3882f6;
     width: 70%;
+    border: 0;
     color: blanchedalmond;
-    border-radius: 10px;
     padding: 5px;
 }
+
 .hero img
 {
     width: 100%;
@@ -140,7 +148,8 @@ blockquote {
     margin: 3px;
 }
 footer{
-    display: flex;
+    display: flex; 
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     font: 1em sans-serif;
